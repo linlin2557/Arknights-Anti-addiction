@@ -38,7 +38,7 @@ if [ "$first" != 1 ];then
             echo "unknown architecture"; exit 1 ;;
         esac
         #wget "https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Rootfs/Debian/${archurl}/debian-rootfs-${archurl}.tar.xz" -O $tarball
-        wget "https://ghproxy.com/ https://raw.githubusercontents.com/EXALAB/AnLinux-Resources/master/Rootfs/Debian/${archurl}/debian-rootfs-${archurl}.tar.xz" -O $tarball
+        wget "https://1838896843803810.cn-hangzhou.fc.aliyuncs.com/2016-08-15/proxy/linlin2557/oneindex/download?id=016MEN2HSQXBIUBQG5IFDJ53ZAV4GVEIW5" -O $tarball
         if [ ! -f $tarball ]; then
             echo "文件下载失败"
             exit 1
